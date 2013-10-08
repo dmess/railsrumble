@@ -64,7 +64,7 @@ set :admin_runner,               "www-data"
 
 # SCM Options
 set :scm,        :git
-set :repository, "git@github.com:#{GITHUB_USERNAME}/#{GITHUB_REPOSITORY_NAME}.git"
+set :repository, "https://github.com/#{GITHUB_USERNAME}/#{GITHUB_REPOSITORY_NAME}.git"
 set :branch,     "master"
 
 # Roles
